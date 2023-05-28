@@ -10,7 +10,7 @@ export default function Home() {
 				<div className="basis-4/12 bg-slate-500 rounded-md h-[107.5%] self-center">
 					Picture
 				</div>
-				<div className="basis-7/12  rounded-r-md overflow-clip"></div>
+				<div className="basis-7/12  rounded-r-md overflow-clip">Bio</div>
 			</div>
 		</main>
 	);
