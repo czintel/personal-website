@@ -2,13 +2,16 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<main
-			className="
-    flex min-h-screen flex-col items-center justify-between
-    p-24
-    bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200"
-		>
-			<h1>Christian Zintel</h1>
+		<main className="flex justify-center items-center w-full h-screen bg-slate-950">
+			<div className="flex flex-row w-4/6 h-5/6 bg-slate-900 rounded-xl overflow-visible">
+				<div className="basis-1/12 rounded-l-md overflow-clip">
+					<div>Menü</div>
+				</div>
+				<div className="basis-4/12 bg-slate-500 rounded-md h-[107.5%] self-center">
+					Picture
+				</div>
+				<div className="basis-7/12  rounded-r-md overflow-clip"></div>
+			</div>
 		</main>
 	);
 }
