@@ -9,12 +9,16 @@ export default function Home() {
 					Picture
 				</div>
 				<div className="basis-7/12 rounded-r-md overflow-scroll p-8">
-					<div className="flex flex-col gap-y-8">
-						<div className="flex flex-col gap-y-2">
+					<div className="flex flex-col gap-y-10">
+						<div className="flex flex-col gap-y-2 font-opensans">
 							{/* Bio  */}
 
-							<h2>Christian Zintel</h2>
-							<p>33 · Mediengestalter · Medienfachwirt · Frontend Developer</p>
+							<h2 className="font-ubuntu font-black text-5xl tracking-wide uppercase pt-8 pb-3">
+								christian zintel.
+							</h2>
+							<p className="font-light tracking-wide text-sm pb-6">
+								33 Jahre · Mediengestalter · Medienfachwirt · Frontend Developer
+							</p>
 							<p>
 								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 								diam nonumy eirmod tempor invidunt ut labore et dolore magna
